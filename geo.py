@@ -1,11 +1,16 @@
 import requests
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+API_TOKEN = os.getenv('TOKEN')
 
 url = "https://us1.locationiq.com/v1/search.php"
 
 city = input("Introduce tu ciudad : ")
 
 
-token = "pk.5df39ce223f61fa5ba9ccf6b1e896a61"
+token = API_TOKEN
 
 data = {
     'key': token,
