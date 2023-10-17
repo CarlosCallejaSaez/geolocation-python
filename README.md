@@ -12,9 +12,9 @@ Before you can use this script, you need to obtain an API token from LocationIQ.
 
 2. Install the required Python libraries:
 
-    pip install requests
+    `pip install requests`
 
-    pip install python-dotenv
+    `pip install python-dotenv`
 
 
 3. Create a `.env` file in the project directory and add your LocationIQ API token:
